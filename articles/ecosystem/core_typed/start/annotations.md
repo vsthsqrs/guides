@@ -17,7 +17,7 @@ without further assistance.
 ## Vars
 
 When core.typed finds a var reference, `def`, `binding`, or some other var-related construct
-that relys on the derefereced value of a var, it requires an expected type.
+that relies on the derefereced value of a var, it requires an expected type.
 
 ```clojure
 clojure.core.typed=> (declare abc)
